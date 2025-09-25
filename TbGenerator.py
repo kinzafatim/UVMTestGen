@@ -2,7 +2,7 @@ import google.generativeai as genai
 import pandas as pd
 import os
 
-GEMINI_API_KEY = "AIzaSyA3ScUBOwzI9-SGmMblGGyb1kKA0mphm5A"  # <-- replace with your real key
+GEMINI_API_KEY = ""  # <-- replace with your real key
 genai.configure(api_key=GEMINI_API_KEY)
 
 xlsx_file = "AndGate_verifcationplan_multisheet.xlsx"
