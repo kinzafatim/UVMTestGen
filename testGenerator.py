@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 
-GEMINI_API_KEY = "AIzaSyA3ScUBOwzI9-SGmMblGGyb1kKA0mphm5A"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 
 
